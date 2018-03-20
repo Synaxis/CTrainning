@@ -7,6 +7,10 @@ int main(void)
 
 	valsRead =scanf("%d", &value);
 	while(valsRead > 0) {
+		if(value < 0) {
+			valsRead = scanf("%d", &value);
+			continue;
+		}
 		numberOfNums++;
 		total+= value; // equivalento to total = total + value;
 		printf("Read%\n", value);
