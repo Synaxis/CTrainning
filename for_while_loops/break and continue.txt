@@ -2,4 +2,4 @@ break/continue constructs
 
 - break: used to break out of a loop
 
-- continue: used to bypass the rest of the loop and begin the next 
+- continue: used to bypass the rest of the loop and begin the next code statement 

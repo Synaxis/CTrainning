@@ -12,3 +12,5 @@ while(count >= 0) {
     count--;
 }
 printf("\n>>BLAST OFF<<\n");
+
+return 0;

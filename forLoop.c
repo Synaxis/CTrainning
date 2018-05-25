@@ -16,7 +16,7 @@ int main(void){
     }
     average = (float)total / numberOfNums;
         if (average != (float)total)
-        printf("you are too dumb!");
+        printf("you are too dumb!\n");
         
     else
     printf("You read %d values . Average = %f.\n", numberOfNums, average);    

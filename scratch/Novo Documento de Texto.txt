@@ -12,7 +12,7 @@ int main(void)
 			continue;
 		}
 		numberOfNums++;
-		total+= value; // equivalento to total = total + value;
+		total+= value; // same as total = total + value;
 		printf("Read%\n", value);
 		valsRead = scanf("%d", &value);
 	}

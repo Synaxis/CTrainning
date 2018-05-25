@@ -3,7 +3,7 @@ Strings
 -char - used to represent a single character.
     char c = 'c'
 
--char[] - used to represent a Strings
+-char[] - used to represent Strings
     char[] str = {'b','y','e','\O'};
 \O is the NULL character
 
@@ -19,4 +19,4 @@ or "call" a string
 
 char str1[6] = {'h','e','l','l','o','\0'};
 char* str2 = str1; // points to "hello"
-char* str3 = &str1[1]; // pints to "ello"
+char* str3 = &str1[1]; // points to "ello"
